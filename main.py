@@ -1,5 +1,6 @@
 import os
 import json
+import groq
 import streamlit as st
 from groq import Groq
 
