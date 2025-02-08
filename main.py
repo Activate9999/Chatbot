@@ -3,15 +3,6 @@ import json
 import streamlit as st
 from groq import Groq
 
-import subprocess
-import sys
-
-try:
-    import groq  # Try to import the package
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "groq"])  # Install if missing
-    import groq  # Import again after installation
-
 # Streamlit page configuration
 st.set_page_config(
     page_title="CHATBOT",
